@@ -1,0 +1,191 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+jogo da velha
+</name>
+</assembly>
+<members>
+<member name="T:jogo_da_velha.My.Resources.Resources">
+<summary>
+  Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.ResourceManager">
+<summary>
+  Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.Culture">
+<summary>
+  Substitui a propriedade CurrentUICulture do thread atual para todas as
+  pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources._3271160816_0cb3abd994_b">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.ap">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.apresentação">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.arena1">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.blanca">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.Blanka">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.bolinha">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.C_Viper">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.Chun_Li">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.ChunLi">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.Cviper">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.Dalsin">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.Dhalsim">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.E_Honda">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.ehonda">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.Fight">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.Guile">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.Guile1">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.Ken">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.ken_portrait">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.ken_portrait1">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.KO">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.MrBison">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.Ryo">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.Ryu">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.ST">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.Vegas">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.vs">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.wind">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.x">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.x1">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.Zangief">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:jogo_da_velha.My.Resources.Resources.Zanguief">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FA120830-AD66-476B-BC20-66D2F575946E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>jogo_da_velha.My.MyApplication</StartupObject>
+    <RootNamespace>jogo_da_velha</RootNamespace>
+    <AssemblyName>jogo da velha</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>jogo da velha.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>jogo da velha.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cenarios.Designer.vb">
+      <DependentUpon>Cenarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cenarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cpu1.Designer.vb">
+      <DependentUpon>cpu1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cpu1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Escolha o Jogador 1.Designer.vb">
+      <DependentUpon>Escolha o Jogador 1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Escolha o Jogador 1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Escolha o Jogador 2.Designer.vb">
+      <DependentUpon>Escolha o Jogador 2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Escolha o Jogador 2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fight.Designer.vb">
+      <DependentUpon>Fight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ganhou.Designer.vb">
+      <DependentUpon>ganhou.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ganhou.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="Multiplayer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Multiplayer.Designer.vb">
+      <DependentUpon>Multiplayer.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentação.Designer.vb">
+      <DependentUpon>Apresentação.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentação.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="telas.Designer.vb">
+      <DependentUpon>telas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="telas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="velha.Designer.vb">
+      <DependentUpon>velha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="velha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VS.Designer.vb">
+      <DependentUpon>VS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cenarios.resx">
+      <DependentUpon>Cenarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cpu1.resx">
+      <DependentUpon>cpu1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Escolha o Jogador 1.resx">
+      <DependentUpon>Escolha o Jogador 1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Escolha o Jogador 2.resx">
+      <DependentUpon>Escolha o Jogador 2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fight.resx">
+      <DependentUpon>Fight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ganhou.resx">
+      <DependentUpon>ganhou.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Multiplayer.resx">
+      <DependentUpon>Multiplayer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentação.resx">
+      <DependentUpon>Apresentação.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="velha.resx">
+      <DependentUpon>velha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VS.resx">
+      <DependentUpon>VS.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3271160816_0cb3abd994_b1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
